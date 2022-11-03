@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp1 // area cost calculation. 
+namespace CalcRoom // area cost calculation. 
 {
     class pgm
     {
