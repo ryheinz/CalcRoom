@@ -2,9 +2,9 @@
 
 namespace CalcRoom // area cost calculation. 
 {
-    class pgm
+    class CalcRoom.pgm;
     {
-        public static void Main()
+        public static void Main();
         {
             double length, width, area, cost, price;
             Console.Write("Enter length of room in feet: ");
