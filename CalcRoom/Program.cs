@@ -7,12 +7,12 @@ namespace CalcRoom // area cost calculation.
         public static void Main()
         {
             Console.Write("Enter length of room in feet: ");
-            double length = Convert.ToInt32(Console.ReadLine());
+            double length = Convert.ToDouble(Console.ReadLine());
             Console.Write("Enter width of room in feet:");
-            double width = Convert.ToInt32(Console.ReadLine());
+            double width = Convert.ToDouble(Console.ReadLine());
             double area = length * width;
             Console.Write("Enter price of square feet: ");
-            double price = Convert.ToInt32(Console.ReadLine());
+            double price = Convert.ToDouble(Console.ReadLine());
             double cost = (length * width) * price;
             Console.WriteLine("Floor is " + area + " square feet.");
             Console.WriteLine("Cost for room is " + cost + ".");
