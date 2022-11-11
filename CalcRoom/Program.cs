@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CalcRoom // area cost calculation. 
+namespace CalcRoom // area cost calculation.-average flooring team can only put in 20 square feet of flooring per hour at a cost of $86.00/hr 
 {
     class CalcRoom
     {
@@ -14,8 +14,8 @@ namespace CalcRoom // area cost calculation.
             Console.Write("Enter price of square feet: ");
             double price = Convert.ToDouble(Console.ReadLine());
             double cost = (length * width) * price;
-            Console.WriteLine("Floor is " + area + " square feet.");
-            Console.WriteLine("Cost for room is " + cost + ".");
+            Console.WriteLine($"Floor is {area} square feet.");
+            Console.WriteLine($"Cost for room is {cost} .");
             Console.ReadLine();
         }
     }
